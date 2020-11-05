@@ -1,0 +1,46 @@
+/*
+Colour scheme:
+Blue/Black : #101b37
+Pink : #e31476
+Light Blue: #02c8ed
+*/
+/*
+
+*/
+
+@font-face {
+  font-family: Blanka;
+  src: url('Blanka-Regular.ttf');
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #101b37;
+  color: #fff;
+}
+
+nav {
+  background-color: #000;
+}
+
+.blanka {
+  font-family: 'Blanka';
+}
+
+body nav img {
+  margin-left: 1em;
+  width: 3em;
+  border: 2px solid transparent
+}
+
+body nav img:hover {
+  border-bottom: 2px solid #ffffff;
+  outline-width: 10px;
+}
+
+#home:hover {
+  color: #e31476;
+}

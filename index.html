@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="h-100">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="master.css">
     <title>Brainstorm</title>
   </head>
-  <body>
-
+  <body class="h-100">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top t-nav">
+      <span class="h3 blanka" id="home">Brainstorm</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar" aria-controls="top-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse h7" id="top-navbar">
+        <ul class="navbar-nav ml-auto text-white">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><img src="videogame.svg" onmouseover="changevideogame_hover()" onmouseout="changevideogame_unhover()" id="videogame"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><img src="team.svg" onmouseover="changeteam_hover()" onmouseout="changeteam_unhover()" id="team"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white no-display-on-mobile" href="#adolf-hitler">Adolf Hitler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white no-display-on-pc" href="#adolf-hitler-mb">Adolf Hitler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#war-begins">The War Begins</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#invasion-of-ussr">Invasion of USSR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#japan-bombs-harbour">Bombing of Pearl Harbour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#us-ends-war">The War ends</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#conclusion">Conclusion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </body>
 </html>
