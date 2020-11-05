@@ -12,33 +12,28 @@
     <title>Brainstorm</title>
   </head>
   <body class="h-100">
+    <span id="top"></span>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top t-nav">
-      <a href="#" class="text-white"><span class="h3 blanka" id="home" alt="Home">Brainstorm</span></a>
+      <a href="#top" class="text-white"><span class="h3 blanka" id="home" alt="Home">Brainstorm</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar" aria-controls="top-navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     <div class="collapse navbar-collapse h7" id="top-navbar">
         <ul class="navbar-nav ml-auto text-white">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="#supportedgames">
               <img class="videogame" src="videogame.svg" onmouseover="changevideogame_hover()" onmouseout="changevideogame_unhover()" id="videogame">
             </a>
-            <!--
-            <div class="videogame h5" id="videogamediv" onmouseover="changevideogame_hover()" onmouseout="changevideogame_unhover()" >Home</div>
-          -->
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#"><img src="team.svg" onmouseover="changeteam_hover()" onmouseout="changeteam_unhover()" id="team"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#"><img src="shopping-cart.svg" onmouseover="changecart_hover()" onmouseout="changecart_unhover()" id="cart"></a>
+            <a class="nav-link text-white" href="#products"><img src="shopping-cart.svg" onmouseover="changecart_hover()" onmouseout="changecart_unhover()" id="cart"></a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container-fluid h-100 bg-game text-center">
+    <div class="container-fluid bg-game text-center">
       <br><br>
-      <div id="earth"></div>
+      <div><br><br><img src="earth.gif"></div>
       <h1 class="heading display-4 text-black">Realeasing globally in <span id="time"></span></h1>
     </div>
     <div class="container-fluid top-heading text-justify div">
@@ -50,19 +45,24 @@
     </div>
     <div class="container-fluid h-75 bg-logo"></div>
     <div class="container-fluid text-justify div">
+      <div class="row text-center">
       <br>
+      <div class="container">
       <h1 class="heading text-center">Experience games like never before!</h1>
+    </div>
       <br>
       <div class="container text-justify">
         <p class="h3 content">Tired of playing games the same way, pressing the same buttons, looking at the same screen? Try the all new Brianstorm interface! Connects easily to all consoles (PS/Xbox/Nintendo Switch), just plug and play. No extra effort required. Experience the reality of gaming, control your character through your brain, and be the champion of the next generation!</p>
       </div>
       <br>
     </div>
+    </div>
 
     <div class="strip w-100"></div>
     <br>
+<div class="container-fluid text-center">
 
-    <div class="images bg-black h-50 container-fluid"><!--bg-games-->
+    <div class="images bg-black h-50 container-fluid" id="supportedgames"><!--bg-games-->
       <br>
       <h1 class="heading text-center bg-black">Games currently supported</h1>
       <br>
@@ -93,8 +93,9 @@
           </div>
         </div>
       </div>
+    </div>
       <div class="container-fluid"></div>
-      <div class="container-fluid text-center div">
+      <div class="container-fluid text-center div" id="products">
         <div class="container">
             <br>
             <h1 class="heading">Our products</h1>
@@ -110,14 +111,13 @@
               </span>
               <br>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                   <img src="airpods.png" alt="" class="img-fluid image">
             </div>
           </div>
             <br><br>
             <div class="row">
-            <div class="col-4">
-              <br>
+            <div class="col-md-4">
                   <img src="bci-headset.png" alt="" class="img-fluid image">
             </div>
             <div class="col">
@@ -141,12 +141,57 @@
                 The VR Headset is the most essential key to the world of Brainstorm's gaming experience. It provides a full panormic 3-D panormic view of the gaming environment, that is difficult to differentiate from reality!
               </span>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <img src="vr-headset.png" alt="" class="img-fluid image">
             </div>
           </div>
         </div>
       </div>
     </div>
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-uppercase">Brainstorm</h5>
+        <p>An organization to revamp gaming.</p>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Core Team</h5>
+        <br>
+        <ul class="list-unstyled">
+          <li>
+            Abhinav Sharma
+          </li>
+          <li>
+            AV Aditya
+          </li>
+          <li>
+            Jigisha Singh
+          </li>
+          <li>
+            Om Arora
+          </li>
+          <li>
+            Prashi Garg
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Brianstorm
+  </div>
+  <!-- Copyright -->
+
+</footer>
   </body>
 </html>
